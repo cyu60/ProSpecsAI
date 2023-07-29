@@ -41,8 +41,8 @@ export const justChat = {
   icon: MessageSquare,
   description: "Feeling lost or uncertain about your career goals? Let's chat about what you want to do!",
   href: "/justChat",
-  color: "text-purple-500",
-  bgColor: "bg-purple-500/10",
+  color: "text-white-500",
+  bgColor: "bg-white-500/10",
 };
 
 export const learningPath = {
