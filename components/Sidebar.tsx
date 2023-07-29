@@ -27,7 +27,7 @@ const Sidebar = () => {
       <div className="px-3 py-2 flex-1">
         <Link href="/" className="flex items-center pl-3 mb-10">
           <div className="relative w-8 h-8 mr-4">
-            <Image fill alt="Logo" src="/path/to/prospecsai_logo.png"></Image>
+            <Image fill alt="Logo" src="/logo_white.png"></Image>
           </div>
           <h1 className="text-2xl font-bold">ProSpecsAI</h1>
         </Link>

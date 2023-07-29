@@ -2,24 +2,7 @@
 import Link from "next/link";
 import Image from "next/image";
 import { Button } from "@/components/ui/button";
-// import { MapLogo } from "~/components/MapLogo";
-// import TripGeniusAI_explore from "../assets/TripGeniusAI_explore.png";
-// import TripGeniusAI_create from "../assets/TripGeniusAI_create.png";
 
-/*
-  This example requires some changes to your config:
-  
-  ```
-  // tailwind.config.js
-  module.exports = {
-    // ...
-    plugins: [
-      // ...
-      require('@tailwindcss/forms'),
-    ],
-  }
-  ```
-*/
 import react from "react";
 import { Popover, Transition } from "@headlessui/react";
 import {
@@ -252,13 +235,12 @@ export default function Example() {
         <Popover className="relative bg-white">
           <div className="mx-auto flex max-w-7xl items-center justify-between p-6 md:justify-start md:space-x-10 lg:px-8">
             <div className="flex justify-start lg:w-0 lg:flex-1">
-              <a href="#">
+              <a href="/" className="flex flex-row">
                 <span className="sr-only">Your Company</span>
-                <img
-                  className="h-8 w-auto sm:h-10"
-                  src="https://tailwindui.com/img/logos/mark.svg?from-color=purple&from-shade=600&to-color=indigo&to-shade=600&toShade=600"
-                  alt=""
-                />
+                <img className="h-8 w-auto sm:h-24" src="/logo.png" alt="" />
+                <div className="flex h-full items-center">
+                  <p className="text-indigo-800 text-3xl font-bold">ProSpecsAI</p>
+                </div>
               </a>
             </div>
           </div>
