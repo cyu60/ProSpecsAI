@@ -26,7 +26,7 @@ export default function Home() {
   return (
     <div>
       <div className="mb-8 space-y-4">
-        <h2 className="text-xl md:text-4xl font-bold text-center">
+        <h2 className="text-xl md:text-4xl font-bold text-center text-indigo-600">
           Take Control of Your Career with ProSpecsAI
         </h2>
         <p className="text-muted-foreground font-light text-sm md:text-lg text-center">
@@ -42,11 +42,11 @@ export default function Home() {
             >
               <div className="flex flex-row items-center gap-x-4">
                 {/* Create a background circle */}
-                <div className={cn("p-2 rounded-md w-fit", tool.bgColor)}>
+                <div className={cn("p-2 rounded-md w-fit", "bg-purple-500/10")}>
                   {/* Add in the icon */}
-                  <tool.icon className={`h-8 w-8 ${tool.color}`} />
+                  <tool.icon className={`h-8 w-8 text-purple-500`} />
                 </div>
-                <h1 className="font-semibold text-xl">{tool.label}</h1>
+                <h1 className="font-semibold text-xl text-indigo-800">{tool.label}</h1>
               </div>
               <ArrowRight className="w-6 h-6" />
             </Link>
