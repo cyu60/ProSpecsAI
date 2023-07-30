@@ -9,13 +9,13 @@ import React from "react";
 const LearningPath = () => {
   return (
     <div className="">
-      <Header
+      {/* <Header
         title={learningPath.label}
         icon={learningPath.icon}
         description={learningPath.description}
         iconColor={learningPath.color}
         bgColor={learningPath.bgColor}
-      ></Header>
+      ></Header> */}
       <h2 className="text-xl md:text-4xl font-bold text-center text-indigo-600">
         Personal Development 
       </h2>
